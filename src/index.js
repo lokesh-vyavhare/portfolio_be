@@ -14,6 +14,6 @@ router.get('/*', (req, res)=>{
     })
 })
 app.use('/', router);
-app.listen(8080, ()=>{
+app.listen(80, ()=>{
     console.log("URL: http://localhost:8080")
 })
